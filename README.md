@@ -58,4 +58,4 @@ User             Guest
 Password         <not set>
 ```
 
-Tambien teneis la opcion de copiar el archivo de configuracion de OPL a vuestra memory card y que directamente cargue la configuracion de red. Podeis encontrar los archivos de configuracion de OPL en la siguiente carpeta del repositorio.
+Tambien teneis la opcion de copiar el archivo de configuracion de OPL a vuestra memory card y que directamente cargue la configuracion de red. Podeis encontrar los archivos de configuracion en [la carpeta  OPL](OPL/) del repositorio.

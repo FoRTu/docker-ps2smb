@@ -19,6 +19,7 @@ Antes de lanzar/crear el contenedor debes cambiar los siguientes campos:
 ```Bash
 docker run --name='PS2smb' \
 -p 'PORT:445/tcp' \
+-h 'PS2smb' \
 -v '/FULL/PATH/OF/THE/smb.conf':'/etc/samba/smb.conf':'rw' \
 -v '/FULL/PATH/OF/PS2/GAMES/ISO':'/mnt/games':'rw' \
 'fortu/docker-ps2smb'
@@ -31,12 +32,12 @@ Con el contenedor en marcha, conecta a la red tu PlayStation 2 y carga OPL. Una 
 ```text
 - PS2 -
 IP Address Type  Static/DHCP
-IP Address       192.168.0.1
+IP Address       192.168.1.20
 Mask             255.255.255.0
-Gateway          192.168.1.254
+Gateway          192.168.1.1
 DNS Server       192.168.1.1
 ```
-Con esto la PS2 y apodra acceder a la red.
+Con esto la PS2 y podra acceder a la red.
 
 Ahora hay que meter los datos los datos del contenedor.
 
@@ -58,4 +59,4 @@ User             Guest
 Password         <not set>
 ```
 
-Tambien teneis la opcion de copiar el archivo de configuracion de OPL a vuestra memory card y que directamente cargue la configuracion de red. Podeis encontrar los archivos de configuracion en [la carpeta  OPL](OPL/) del repositorio.
+Tambien teneis la opcion de editar manualmente los archivos de configuracion de OPL y copiarlos a vuestra memory card mediante [uLaunchELF](http://ps2ulaunchelf.pbworks.com/w/page/19520134/FrontPage). Podeis encontrar los archivos de configuracion en [la carpeta  OPL](OPL/) del repositorio.

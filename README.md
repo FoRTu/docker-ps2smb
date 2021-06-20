@@ -64,8 +64,9 @@ Now Just press on **Reconnect** and go to the game list and you will see all you
 
 ---
 
+(Spanish README version)
 
-# Docker-ps2smb (Castellano)
+# Docker-ps2smb
 
 Con este *contenedor* podrás compartir por la red tus juegos de PlayStation 2 almacenados en tu PC o NAS, para que [OPL (OpenPS2Loader)](https://github.com/ps2homebrew/Open-PS2-Loader) pueda abrirlos.
 
@@ -128,4 +129,3 @@ Password         <not set>
 También tenéis la opción de editar manualmente los archivos de configuración de OPL y copiarlos a vuestra memory card mediante [uLaunchELF](http://ps2ulaunchelf.pbworks.com/w/page/19520134/FrontPage). Podéis encontrar los archivos de configuración en [la carpeta  OPL](OPL/) del repositorio.
 
 Ahora sólo tienes que pulsar en **Reconnect** y acceder a la lista de juegos para ver todos tus juegos almacenados en el PC o NAS.
----

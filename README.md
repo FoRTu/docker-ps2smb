@@ -23,7 +23,7 @@ docker run --name='PS2smb' \
 -h 'PS2smb' \
 -v '/FULL/PATH/OF/THE/smb.conf':'/etc/samba/smb.conf':'rw' \
 -v '/FULL/PATH/OF/PS2/GAMES/ISO':'/mnt/games':'rw' \
-'fortu/docker-ps2smb'
+'fortu/ps2smb'
 ```
 ### Configure OPL (OpenPS2Loader) on the PS2
 
